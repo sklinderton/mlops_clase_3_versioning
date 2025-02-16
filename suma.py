@@ -7,6 +7,8 @@ def login(username: str, password: str):
     else:
         return "login unsuccessful"
 
+def resta(a:int, b:int) -> int:
+    return a - b
 
 if __name__ == '__main__':
     print(suma(2, 3))
